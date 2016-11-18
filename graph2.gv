@@ -1,0 +1,203 @@
+digraph G {
+
+100[label=7];
+101[label=6];
+100->101[label=1];
+101[label=6];
+102[label=5];
+101->102[label=1];
+102[label=5];
+103[label=4];
+102->103[label=1];
+103[label=4];
+104[label=3];
+103->104[label=1];
+104[label=3];
+105[label=2];
+104->105[label=1];
+105[label=2];
+106[label=1];
+105->106[label=1];
+106[label=1];
+107[label=0, style=filled, fillcolor=green]
+106->107[label=1];
+106[label=1];
+109[label=-1, style=filled, fillcolor=red]
+106->109[label=2];
+105[label=2];
+111[label=0, style=filled, fillcolor=green]
+105->111[label=2];
+104[label=3];
+113[label=1];
+104->113[label=2];
+113[label=1];
+114[label=0, style=filled, fillcolor=green]
+113->114[label=1];
+113[label=1];
+116[label=-1, style=filled, fillcolor=red]
+113->116[label=2];
+103[label=4];
+118[label=2];
+103->118[label=2];
+118[label=2];
+119[label=1];
+118->119[label=1];
+119[label=1];
+120[label=0, style=filled, fillcolor=green]
+119->120[label=1];
+119[label=1];
+122[label=-1, style=filled, fillcolor=red]
+119->122[label=2];
+118[label=2];
+124[label=0, style=filled, fillcolor=green]
+118->124[label=2];
+102[label=5];
+126[label=3];
+102->126[label=2];
+126[label=3];
+127[label=2];
+126->127[label=1];
+127[label=2];
+128[label=1];
+127->128[label=1];
+128[label=1];
+129[label=0, style=filled, fillcolor=green]
+128->129[label=1];
+128[label=1];
+131[label=-1, style=filled, fillcolor=red]
+128->131[label=2];
+127[label=2];
+133[label=0, style=filled, fillcolor=green]
+127->133[label=2];
+126[label=3];
+135[label=1];
+126->135[label=2];
+135[label=1];
+136[label=0, style=filled, fillcolor=green]
+135->136[label=1];
+135[label=1];
+138[label=-1, style=filled, fillcolor=red]
+135->138[label=2];
+101[label=6];
+140[label=4];
+101->140[label=2];
+140[label=4];
+141[label=3];
+140->141[label=1];
+141[label=3];
+142[label=2];
+141->142[label=1];
+142[label=2];
+143[label=1];
+142->143[label=1];
+143[label=1];
+144[label=0, style=filled, fillcolor=green]
+143->144[label=1];
+143[label=1];
+146[label=-1, style=filled, fillcolor=red]
+143->146[label=2];
+142[label=2];
+148[label=0, style=filled, fillcolor=green]
+142->148[label=2];
+141[label=3];
+150[label=1];
+141->150[label=2];
+150[label=1];
+151[label=0, style=filled, fillcolor=green]
+150->151[label=1];
+150[label=1];
+153[label=-1, style=filled, fillcolor=red]
+150->153[label=2];
+140[label=4];
+155[label=2];
+140->155[label=2];
+155[label=2];
+156[label=1];
+155->156[label=1];
+156[label=1];
+157[label=0, style=filled, fillcolor=green]
+156->157[label=1];
+156[label=1];
+159[label=-1, style=filled, fillcolor=red]
+156->159[label=2];
+155[label=2];
+161[label=0, style=filled, fillcolor=green]
+155->161[label=2];
+100[label=7];
+163[label=5];
+100->163[label=2];
+163[label=5];
+164[label=4];
+163->164[label=1];
+164[label=4];
+165[label=3];
+164->165[label=1];
+165[label=3];
+166[label=2];
+165->166[label=1];
+166[label=2];
+167[label=1];
+166->167[label=1];
+167[label=1];
+168[label=0, style=filled, fillcolor=green]
+167->168[label=1];
+167[label=1];
+170[label=-1, style=filled, fillcolor=red]
+167->170[label=2];
+166[label=2];
+172[label=0, style=filled, fillcolor=green]
+166->172[label=2];
+165[label=3];
+174[label=1];
+165->174[label=2];
+174[label=1];
+175[label=0, style=filled, fillcolor=green]
+174->175[label=1];
+174[label=1];
+177[label=-1, style=filled, fillcolor=red]
+174->177[label=2];
+164[label=4];
+179[label=2];
+164->179[label=2];
+179[label=2];
+180[label=1];
+179->180[label=1];
+180[label=1];
+181[label=0, style=filled, fillcolor=green]
+180->181[label=1];
+180[label=1];
+183[label=-1, style=filled, fillcolor=red]
+180->183[label=2];
+179[label=2];
+185[label=0, style=filled, fillcolor=green]
+179->185[label=2];
+163[label=5];
+187[label=3];
+163->187[label=2];
+187[label=3];
+188[label=2];
+187->188[label=1];
+188[label=2];
+189[label=1];
+188->189[label=1];
+189[label=1];
+190[label=0, style=filled, fillcolor=green]
+189->190[label=1];
+189[label=1];
+192[label=-1, style=filled, fillcolor=red]
+189->192[label=2];
+188[label=2];
+194[label=0, style=filled, fillcolor=green]
+188->194[label=2];
+187[label=3];
+196[label=1];
+187->196[label=2];
+196[label=1];
+197[label=0, style=filled, fillcolor=green]
+196->197[label=1];
+196[label=1];
+199[label=-1, style=filled, fillcolor=red]
+196->199[label=2];
+}
+
+

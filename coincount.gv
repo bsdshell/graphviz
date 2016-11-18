@@ -1,0 +1,75 @@
+digraph G {
+    graph[label="Number of ways to add up to a sum with k coins", fontsize=30, labelloc="top", fontcolor=blue]
+
+100[label=3];
+101[label=2];
+100->101[label=1];
+
+101[label=2];
+102[label=1];
+101->102[label=1];
+102[label=1];
+103[label=0, style=filled, fillcolor=green]
+102->103[label=1];
+102[label=1];
+105[label=-1, style=filled, fillcolor=red]
+102->105[label=2];
+101[label=2];
+107[label=0, style=filled, fillcolor=green]
+101->107[label=2];
+100[label=3];
+109[label=1];
+100->109[label=2];
+109[label=1];
+110[label=0, style=filled, fillcolor=green]
+109->110[label=1];
+109[label=1];
+112[label=-1, style=filled, fillcolor=red]
+109->112[label=2];
+
+
+root[label="3,2"];
+le10[label="2,2"];
+root->le10[label="c=1"];
+
+le11[label="1,2"];
+le10->le11[label="c=1"];
+
+le12[label="0,2", style=filled, fillcolor=green];
+le11->le12[label="c=1"];
+
+le13[label="1,1", ];
+le11->le13[label="k-1"];
+
+le14[label="-1,1", style=filled, fillcolor=red];
+le13->le14[label="c=2"];
+
+le15[label="1,0", style=filled, fillcolor=red];
+le13->le15[label="k-1"];
+
+le16[label="2,1"];
+le10->le16[label="k-1"];
+
+le17[label="0,1", style=filled, fillcolor=green];
+le16->le17[label="c=2"];
+
+le18[label="2,0", style=filled, fillcolor=red];
+le16->le18[label="k-1"];
+
+le19[label="3,1"];
+root->le19[label="k-1"];
+
+le20[label="1,1"];
+le19->le20[label="c=2"];
+
+le21[label="-1,1", style=filled, fillcolor=red];
+le20->le21[label="c=2"];
+
+le22[label="1,0", style=filled, fillcolor=red];
+le20->le22[label="k-1"];
+
+le23[label="3,0", style=filled, fillcolor=red];
+le19->le23[label="k-1"];
+}
+
+

@@ -1,0 +1,14 @@
+digraph G{
+
+    isTutorial [shape=triangle]
+    checkDevice->{IPHONE4S_SIZE IPHONE5UP_SIZE IPAD_SIZE}
+    {IPHONE4S_SIZE IPHONE5UP_SIZE IPAD_SIZE}->_screenWidth->isTutorial
+
+
+    isTutorial->is_tutorial
+    isTutorial->not_tutorial
+    not_tutorial->numGridWidth_4->gridWidth->blockWidth
+    is_tutorial->numGridWidth_2->gridWidth->_width
+}
+
+

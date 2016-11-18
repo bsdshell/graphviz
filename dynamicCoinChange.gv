@@ -1,0 +1,52 @@
+digraph G {
+    0[label=0, style=filled, fillcolor=green]
+
+    100[label=1]
+    10[label=-1, style=filled, fillcolor=red]
+    11[label=-2, style=filled, fillcolor=red]
+    100->10[label=2] 
+    100->11[label=3]
+
+    
+    101[label=2]
+    12[label=0, style=filled, fillcolor=green]
+    13[label=1]
+    101->12[label=2]
+    101->13[label=3]
+
+
+    102[label=3]
+    14[label=1]
+    15[label=0, style=filled, fillcolor=green]
+    102->14[label=2]
+    102->15[label=3]
+
+    
+    103[label=4]
+    16[label=2]
+    17[label=1]
+    103->16[label=2]
+    103->17[label=3]
+    
+    104[label=5]
+    18[label=3]
+    19[label=2]
+    104->18[label=2]
+    104->19[label=3]
+
+    105[label=6]
+    20[label=4]
+    21[label=3]
+    105->20[label=2]
+    105->21[label=3]
+
+    106[label=7]
+    22[label=5]
+    23[label=4]
+    106->22[label=2]
+    106->23[label=3]
+}
+
+
+
+

@@ -1,0 +1,53 @@
+digraph G {
+
+100[label=7];
+101[label=5];
+100->101[label=2];
+101[label=5];
+102[label=3];
+101->102[label=2];
+102[label=3];
+103[label=1];
+102->103[label=2];
+103[label=1];
+104[label=-1, style=filled, fillcolor=red]
+103->104[label=2];
+103[label=1];
+106[label=-2, style=filled, fillcolor=red]
+103->106[label=3];
+102[label=3];
+108[label=0, style=filled, fillcolor=green]
+102->108[label=3];
+101[label=5];
+110[label=2];
+101->110[label=3];
+110[label=2];
+111[label=0, style=filled, fillcolor=green]
+110->111[label=2];
+110[label=2];
+113[label=-1, style=filled, fillcolor=red]
+110->113[label=3];
+100[label=7];
+115[label=4];
+100->115[label=3];
+115[label=4];
+116[label=2];
+115->116[label=2];
+116[label=2];
+117[label=0, style=filled, fillcolor=green]
+116->117[label=2];
+116[label=2];
+119[label=-1, style=filled, fillcolor=red]
+116->119[label=3];
+115[label=4];
+121[label=1];
+115->121[label=3];
+121[label=1];
+122[label=-1, style=filled, fillcolor=red]
+121->122[label=2];
+121[label=1];
+124[label=-2, style=filled, fillcolor=red]
+121->124[label=3];
+}
+
+

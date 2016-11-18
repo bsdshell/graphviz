@@ -1,0 +1,16 @@
+digraph G {
+    LinkedList[style=filled, fillcolor=green]
+    List[style=filled, fillcolor=yellow]
+    Queue[style=filled, fillcolor=yellow]
+    
+
+    List->ArrayList
+    List->LinkedList
+    List->Vector
+    List->Stack
+
+    Queue->LinkedList 
+    Queue->PriorityQueue 
+}
+
+

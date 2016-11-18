@@ -1,0 +1,140 @@
+digraph G {
+
+100[label=5];
+101[label=4];
+100->101[label=1];
+101[label=4];
+102[label=3];
+101->102[label=1];
+102[label=3];
+103[label=2];
+102->103[label=1];
+103[label=2];
+104[label=1];
+103->104[label=1];
+104[label=1];
+105[label=0, style=filled, fillcolor=green]
+104->105[label=1];
+104[label=1];
+107[label=-1, style=filled, fillcolor=red]
+104->107[label=2];
+104[label=1];
+110[label=-2, style=filled, fillcolor=red]
+104->110[label=3];
+103[label=2];
+112[label=0, style=filled, fillcolor=green]
+103->112[label=2];
+103[label=2];
+115[label=-1, style=filled, fillcolor=red]
+103->115[label=3];
+102[label=3];
+117[label=1];
+102->117[label=2];
+117[label=1];
+118[label=0, style=filled, fillcolor=green]
+117->118[label=1];
+117[label=1];
+120[label=-1, style=filled, fillcolor=red]
+117->120[label=2];
+117[label=1];
+123[label=-2, style=filled, fillcolor=red]
+117->123[label=3];
+102[label=3];
+126[label=0, style=filled, fillcolor=green]
+102->126[label=3];
+101[label=4];
+128[label=2];
+101->128[label=2];
+128[label=2];
+129[label=1];
+128->129[label=1];
+129[label=1];
+130[label=0, style=filled, fillcolor=green]
+129->130[label=1];
+129[label=1];
+132[label=-1, style=filled, fillcolor=red]
+129->132[label=2];
+129[label=1];
+135[label=-2, style=filled, fillcolor=red]
+129->135[label=3];
+128[label=2];
+137[label=0, style=filled, fillcolor=green]
+128->137[label=2];
+128[label=2];
+140[label=-1, style=filled, fillcolor=red]
+128->140[label=3];
+101[label=4];
+143[label=1];
+101->143[label=3];
+143[label=1];
+144[label=0, style=filled, fillcolor=green]
+143->144[label=1];
+143[label=1];
+146[label=-1, style=filled, fillcolor=red]
+143->146[label=2];
+143[label=1];
+149[label=-2, style=filled, fillcolor=red]
+143->149[label=3];
+100[label=5];
+151[label=3];
+100->151[label=2];
+151[label=3];
+152[label=2];
+151->152[label=1];
+152[label=2];
+153[label=1];
+152->153[label=1];
+153[label=1];
+154[label=0, style=filled, fillcolor=green]
+153->154[label=1];
+153[label=1];
+156[label=-1, style=filled, fillcolor=red]
+153->156[label=2];
+153[label=1];
+159[label=-2, style=filled, fillcolor=red]
+153->159[label=3];
+152[label=2];
+161[label=0, style=filled, fillcolor=green]
+152->161[label=2];
+152[label=2];
+164[label=-1, style=filled, fillcolor=red]
+152->164[label=3];
+151[label=3];
+166[label=1];
+151->166[label=2];
+166[label=1];
+167[label=0, style=filled, fillcolor=green]
+166->167[label=1];
+166[label=1];
+169[label=-1, style=filled, fillcolor=red]
+166->169[label=2];
+166[label=1];
+172[label=-2, style=filled, fillcolor=red]
+166->172[label=3];
+151[label=3];
+175[label=0, style=filled, fillcolor=green]
+151->175[label=3];
+100[label=5];
+178[label=2];
+100->178[label=3];
+178[label=2];
+179[label=1];
+178->179[label=1];
+179[label=1];
+180[label=0, style=filled, fillcolor=green]
+179->180[label=1];
+179[label=1];
+182[label=-1, style=filled, fillcolor=red]
+179->182[label=2];
+179[label=1];
+185[label=-2, style=filled, fillcolor=red]
+179->185[label=3];
+178[label=2];
+187[label=0, style=filled, fillcolor=green]
+178->187[label=2];
+178[label=2];
+190[label=-1, style=filled, fillcolor=red]
+178->190[label=3];
+}
+
+

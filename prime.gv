@@ -1,0 +1,15 @@
+digraph G{
+    7[style=filled, fillcolor=red]
+    "d"[style=filled, fillcolor=green]
+    7->"d";
+
+    17[style=filled, fillcolor=red]
+    "g"[style=filled, fillcolor=green]
+    17->"g";
+
+    53[style=filled, fillcolor=red]
+    "o"[style=filled, fillcolor=green]
+    53->"o";
+}
+
+

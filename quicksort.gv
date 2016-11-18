@@ -1,0 +1,26 @@
+digraph G {
+        graph [ordering="out"];
+        lnull[shape=box label=null];
+        rnull[shape=box label=null];
+
+        root[shape=box label="2, 1, 4, 9, 3"]
+        partition[shape=box label="1, 2, 3, 4, 9"]
+        root->partition
+
+        left[shape=box label="1, 2"]
+        right[shape=box label="4, 9"]
+
+        partition->left
+        partition->right
+
+        left_left[shape=box label="1"]
+        right_left[shape=box label="4"]
+        
+
+        left->left_left
+        left->lnull
+
+        right->right_left
+        right->rnull
+}
+
